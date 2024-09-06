@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lightgreen"
+    tools:context=".SnakeBar">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/defaltsnack"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:background="@color/lightpurple"
+        android:gravity="center"
+        android:onClick="defsn"
+        android:text="@string/default_snackbar_txt"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/callsnack"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:background="@color/lightpurple"
+        android:gravity="center"
+        android:onClick="calls"
+        android:text="@string/call_acrion_snackbar_txt"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/customsnack"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:background="@color/lightpurple"
+        android:gravity="center"
+        android:onClick="cussn"
+        android:text="@string/custom_snackbar_txt"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
